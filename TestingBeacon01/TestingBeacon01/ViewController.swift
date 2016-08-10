@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         let beaconRegion = CLBeaconRegion(proximityUUID: uuid!, major: major, minor: minor, identifier: "ABC")
         //locationManager.startRangingBeaconsInRegion(beaconRegion)
         locationManager.startMonitoringForRegion(beaconRegion)
+   
     }
 
     override func didReceiveMemoryWarning() {
