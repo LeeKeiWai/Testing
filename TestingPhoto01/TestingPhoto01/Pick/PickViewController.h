@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Photos/Photos.h>
+#import "PickCell.h"
 
 @interface PickViewController : UIViewController
+{
+    UITableView* tableView01;
+    NSMutableArray* list;
+    PHFetchResult *allPhotos;
+    PHCachingImageManager *imageManager;
+}
 
 @end

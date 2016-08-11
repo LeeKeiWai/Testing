@@ -16,17 +16,26 @@
 
 @implementation ViewController
 
+static ViewController* me;
+
++(ViewController*)getInstance
+{
+    return me;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UINavigationController* nav = [[UINavigationController alloc] init];
-    [self addChildViewController:nav];
-    [self.view addSubview:nav.view];
-    [nav didMoveToParentViewController:self];
-    nav.navigationBarHidden = YES;
+    me = self;
+    
+    self.nav = [[CustomNavigationController alloc] init];
+    [self addChildViewController:self.nav];
+    [self.view addSubview:self.nav.view];
+    [self.nav didMoveToParentViewController:self];
+    self.nav.navigationBarHidden = YES;
     PickViewController* pick = [PickViewController new];
-    nav.viewControllers = @[pick];
+    self.nav.viewControllers = @[pick];
     
     
 //    PHFetchOptions *allPhotosOptions = [[PHFetchOptions alloc] init];

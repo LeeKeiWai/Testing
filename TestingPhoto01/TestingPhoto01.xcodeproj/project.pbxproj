@@ -31,6 +31,9 @@
 		2A869B0D1D5B1D950047A67D /* UIPickerView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869B081D5B1D950047A67D /* UIPickerView+Blocks.m */; };
 		2A869B0E1D5B1D950047A67D /* UITableView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869B0A1D5B1D950047A67D /* UITableView+Blocks.m */; };
 		2A869B111D5B1DD20047A67D /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869B101D5B1DD20047A67D /* Config.m */; };
+		2A869B151D5B2E070047A67D /* PickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869B141D5B2E070047A67D /* PickCell.m */; };
+		2A869B181D5C3D2A0047A67D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869B171D5C3D2A0047A67D /* EditViewController.m */; };
+		2A869B1B1D5C6EC70047A67D /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869B1A1D5C6EC70047A67D /* CustomNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,12 @@
 		2A869B0F1D5B1DD20047A67D /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		2A869B101D5B1DD20047A67D /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 		2A869B121D5B23DA0047A67D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2A869B131D5B2E070047A67D /* PickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickCell.h; sourceTree = "<group>"; };
+		2A869B141D5B2E070047A67D /* PickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickCell.m; sourceTree = "<group>"; };
+		2A869B161D5C3D2A0047A67D /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		2A869B171D5C3D2A0047A67D /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		2A869B191D5C6EC70047A67D /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		2A869B1A1D5C6EC70047A67D /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +174,8 @@
 				2A869A761D59757D0047A67D /* LaunchScreen.storyboard */,
 				2A869A791D59757D0047A67D /* Info.plist */,
 				2A869A681D59757D0047A67D /* Supporting Files */,
+				2A869B191D5C6EC70047A67D /* CustomNavigationController.h */,
+				2A869B1A1D5C6EC70047A67D /* CustomNavigationController.m */,
 			);
 			path = TestingPhoto01;
 			sourceTree = "<group>";
@@ -206,6 +217,8 @@
 		2A869A9C1D599CE30047A67D /* Edit */ = {
 			isa = PBXGroup;
 			children = (
+				2A869B161D5C3D2A0047A67D /* EditViewController.h */,
+				2A869B171D5C3D2A0047A67D /* EditViewController.m */,
 			);
 			path = Edit;
 			sourceTree = "<group>";
@@ -213,6 +226,8 @@
 		2A869A9D1D599CE30047A67D /* Pick */ = {
 			isa = PBXGroup;
 			children = (
+				2A869B131D5B2E070047A67D /* PickCell.h */,
+				2A869B141D5B2E070047A67D /* PickCell.m */,
 				2A869ADD1D5B1D020047A67D /* PickViewController.h */,
 				2A869ADE1D5B1D020047A67D /* PickViewController.m */,
 			);
@@ -400,12 +415,15 @@
 				2A869B111D5B1DD20047A67D /* Config.m in Sources */,
 				2A869AF81D5B1D7D0047A67D /* NSString+RegEx.m in Sources */,
 				2A869ADF1D5B1D020047A67D /* PickViewController.m in Sources */,
+				2A869B151D5B2E070047A67D /* PickCell.m in Sources */,
 				2A869B0B1D5B1D950047A67D /* README.md in Sources */,
+				2A869B181D5C3D2A0047A67D /* EditViewController.m in Sources */,
 				2A869AF91D5B1D7D0047A67D /* UIControl+Blocks.m in Sources */,
 				2A869A6D1D59757D0047A67D /* AppDelegate.m in Sources */,
 				2A869B0C1D5B1D950047A67D /* UIButton+Blocks.m in Sources */,
 				2A869AFB1D5B1D7D0047A67D /* UIImage+ResizeMagick.m in Sources */,
 				2A869AFD1D5B1D7D0047A67D /* UIView-RandomColor.m in Sources */,
+				2A869B1B1D5C6EC70047A67D /* CustomNavigationController.m in Sources */,
 				2A869AF61D5B1D7D0047A67D /* NSString+ConvertToLabel.m in Sources */,
 				2A869A6A1D59757D0047A67D /* main.m in Sources */,
 				2A869B0D1D5B1D950047A67D /* UIPickerView+Blocks.m in Sources */,

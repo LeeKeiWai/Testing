@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomNavigationController.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) CustomNavigationController* nav;
++(ViewController*)getInstance;
 
 @end
 
