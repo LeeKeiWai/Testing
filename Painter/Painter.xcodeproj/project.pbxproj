@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A869BE61D61B5E70047A67D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869BE51D61B5E70047A67D /* AppDelegate.m */; };
+		2A869BE91D61B5E70047A67D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869BE81D61B5E70047A67D /* main.m */; };
+		2A869BEB1D61B5E80047A67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A869BEA1D61B5E80047A67D /* Assets.xcassets */; };
+		2A869BEE1D61B5E80047A67D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A869BEC1D61B5E80047A67D /* MainMenu.xib */; };
+		2A869BF91D61B5E80047A67D /* PainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869BF81D61B5E80047A67D /* PainterTests.m */; };
+		2A869C041D61B5E80047A67D /* PainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869C031D61B5E80047A67D /* PainterUITests.m */; };
+		2A869C131D61B78C0047A67D /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A869C121D61B78C0047A67D /* MyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A869BF51D61B5E80047A67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A869BD91D61B5E60047A67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A869BE01D61B5E70047A67D;
+			remoteInfo = Painter;
+		};
+		2A869C001D61B5E80047A67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A869BD91D61B5E60047A67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A869BE01D61B5E70047A67D;
+			remoteInfo = Painter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A869BE11D61B5E70047A67D /* Painter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Painter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A869BE41D61B5E70047A67D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A869BE51D61B5E70047A67D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A869BE81D61B5E70047A67D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A869BEA1D61B5E80047A67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A869BED1D61B5E80047A67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A869BEF1D61B5E80047A67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A869BF41D61B5E80047A67D /* PainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A869BF81D61B5E80047A67D /* PainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainterTests.m; sourceTree = "<group>"; };
+		2A869BFA1D61B5E80047A67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A869BFF1D61B5E80047A67D /* PainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A869C031D61B5E80047A67D /* PainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainterUITests.m; sourceTree = "<group>"; };
+		2A869C051D61B5E80047A67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A869C111D61B78C0047A67D /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		2A869C121D61B78C0047A67D /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A869BDE1D61B5E70047A67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A869BF11D61B5E80047A67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A869BFC1D61B5E80047A67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A869BD81D61B5E60047A67D = {
+			isa = PBXGroup;
+			children = (
+				2A869BE31D61B5E70047A67D /* Painter */,
+				2A869BF71D61B5E80047A67D /* PainterTests */,
+				2A869C021D61B5E80047A67D /* PainterUITests */,
+				2A869BE21D61B5E70047A67D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A869BE21D61B5E70047A67D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A869BE11D61B5E70047A67D /* Painter.app */,
+				2A869BF41D61B5E80047A67D /* PainterTests.xctest */,
+				2A869BFF1D61B5E80047A67D /* PainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A869BE31D61B5E70047A67D /* Painter */ = {
+			isa = PBXGroup;
+			children = (
+				2A869C111D61B78C0047A67D /* MyView.h */,
+				2A869C121D61B78C0047A67D /* MyView.m */,
+				2A869BE41D61B5E70047A67D /* AppDelegate.h */,
+				2A869BE51D61B5E70047A67D /* AppDelegate.m */,
+				2A869BEA1D61B5E80047A67D /* Assets.xcassets */,
+				2A869BEC1D61B5E80047A67D /* MainMenu.xib */,
+				2A869BEF1D61B5E80047A67D /* Info.plist */,
+				2A869BE71D61B5E70047A67D /* Supporting Files */,
+			);
+			path = Painter;
+			sourceTree = "<group>";
+		};
+		2A869BE71D61B5E70047A67D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A869BE81D61B5E70047A67D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A869BF71D61B5E80047A67D /* PainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A869BF81D61B5E80047A67D /* PainterTests.m */,
+				2A869BFA1D61B5E80047A67D /* Info.plist */,
+			);
+			path = PainterTests;
+			sourceTree = "<group>";
+		};
+		2A869C021D61B5E80047A67D /* PainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A869C031D61B5E80047A67D /* PainterUITests.m */,
+				2A869C051D61B5E80047A67D /* Info.plist */,
+			);
+			path = PainterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A869BE01D61B5E70047A67D /* Painter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A869C081D61B5E80047A67D /* Build configuration list for PBXNativeTarget "Painter" */;
+			buildPhases = (
+				2A869BDD1D61B5E70047A67D /* Sources */,
+				2A869BDE1D61B5E70047A67D /* Frameworks */,
+				2A869BDF1D61B5E70047A67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Painter;
+			productName = Painter;
+			productReference = 2A869BE11D61B5E70047A67D /* Painter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A869BF31D61B5E80047A67D /* PainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A869C0B1D61B5E80047A67D /* Build configuration list for PBXNativeTarget "PainterTests" */;
+			buildPhases = (
+				2A869BF01D61B5E80047A67D /* Sources */,
+				2A869BF11D61B5E80047A67D /* Frameworks */,
+				2A869BF21D61B5E80047A67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A869BF61D61B5E80047A67D /* PBXTargetDependency */,
+			);
+			name = PainterTests;
+			productName = PainterTests;
+			productReference = 2A869BF41D61B5E80047A67D /* PainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A869BFE1D61B5E80047A67D /* PainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A869C0E1D61B5E80047A67D /* Build configuration list for PBXNativeTarget "PainterUITests" */;
+			buildPhases = (
+				2A869BFB1D61B5E80047A67D /* Sources */,
+				2A869BFC1D61B5E80047A67D /* Frameworks */,
+				2A869BFD1D61B5E80047A67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A869C011D61B5E80047A67D /* PBXTargetDependency */,
+			);
+			name = PainterUITests;
+			productName = PainterUITests;
+			productReference = 2A869BFF1D61B5E80047A67D /* PainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A869BD91D61B5E60047A67D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					2A869BE01D61B5E70047A67D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2A869BF31D61B5E80047A67D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A869BE01D61B5E70047A67D;
+					};
+					2A869BFE1D61B5E80047A67D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A869BE01D61B5E70047A67D;
+					};
+				};
+			};
+			buildConfigurationList = 2A869BDC1D61B5E60047A67D /* Build configuration list for PBXProject "Painter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A869BD81D61B5E60047A67D;
+			productRefGroup = 2A869BE21D61B5E70047A67D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A869BE01D61B5E70047A67D /* Painter */,
+				2A869BF31D61B5E80047A67D /* PainterTests */,
+				2A869BFE1D61B5E80047A67D /* PainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A869BDF1D61B5E70047A67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A869BEB1D61B5E80047A67D /* Assets.xcassets in Resources */,
+				2A869BEE1D61B5E80047A67D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A869BF21D61B5E80047A67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A869BFD1D61B5E80047A67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A869BDD1D61B5E70047A67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A869C131D61B78C0047A67D /* MyView.m in Sources */,
+				2A869BE91D61B5E70047A67D /* main.m in Sources */,
+				2A869BE61D61B5E70047A67D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A869BF01D61B5E80047A67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A869BF91D61B5E80047A67D /* PainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A869BFB1D61B5E80047A67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A869C041D61B5E80047A67D /* PainterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A869BF61D61B5E80047A67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A869BE01D61B5E70047A67D /* Painter */;
+			targetProxy = 2A869BF51D61B5E80047A67D /* PBXContainerItemProxy */;
+		};
+		2A869C011D61B5E80047A67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A869BE01D61B5E70047A67D /* Painter */;
+			targetProxy = 2A869C001D61B5E80047A67D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A869BEC1D61B5E80047A67D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A869BED1D61B5E80047A67D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A869C061D61B5E80047A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A869C071D61B5E80047A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A869C091D61B5E80047A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Painter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Painter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A869C0A1D61B5E80047A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Painter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Painter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A869C0C1D61B5E80047A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Painter.app/Contents/MacOS/Painter";
+			};
+			name = Debug;
+		};
+		2A869C0D1D61B5E80047A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Painter.app/Contents/MacOS/Painter";
+			};
+			name = Release;
+		};
+		2A869C0F1D61B5E80047A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Painter;
+			};
+			name = Debug;
+		};
+		2A869C101D61B5E80047A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.PainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Painter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A869BDC1D61B5E60047A67D /* Build configuration list for PBXProject "Painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A869C061D61B5E80047A67D /* Debug */,
+				2A869C071D61B5E80047A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A869C081D61B5E80047A67D /* Build configuration list for PBXNativeTarget "Painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A869C091D61B5E80047A67D /* Debug */,
+				2A869C0A1D61B5E80047A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A869C0B1D61B5E80047A67D /* Build configuration list for PBXNativeTarget "PainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A869C0C1D61B5E80047A67D /* Debug */,
+				2A869C0D1D61B5E80047A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A869C0E1D61B5E80047A67D /* Build configuration list for PBXNativeTarget "PainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A869C0F1D61B5E80047A67D /* Debug */,
+				2A869C101D61B5E80047A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A869BD91D61B5E60047A67D /* Project object */;
+}
